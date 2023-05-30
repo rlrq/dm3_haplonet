@@ -18,5 +18,5 @@ dataNet <- haploNet(dataHaplo)
 
 ## plot
 pdf(file="haploNet_DM3.pdf", width = 16, height = 30, pointsize = 8)
-plot(dataNet, size = attr(dataNet, "freq"), fast = FALSE, threshold = 0)
+plot(dataNet, size = attr(dataNet, "freq"), fast = FALSE, threshold = 0, labels = FALSE)
 dev.off()
