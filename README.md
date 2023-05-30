@@ -5,7 +5,7 @@ data and script for generating haplotype network in DM3 paper
 * DM3 CDS sequences were downloaded using 1001 Genomes API and translated
 * Unknown residues were encoded as wild-type
 * Peptide sequences were encoded as nucleotide sequences for compaitibility with pegas
-  * Wild-type residue is encoded as A
+  * Wild-type residues (Col-0-like) are encoded as A
   * All non-wild-type residues are arbitrarily encoded as other nucleotides, consistent on a per-position basis
 * Haplotype sequences in FASTA file are duplicated according to frequency across accessions
   * <10 accessions: 1 copy in FASTA file
