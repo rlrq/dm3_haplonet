@@ -7,6 +7,8 @@ data and script for generating haplotype network in DM3 paper
 * Peptide sequences were encoded as nucleotide sequences for compatibility with pegas
   * Wild-type residues (identical to Col-0) are encoded as A
   * All non-wild-type residues are arbitrarily encoded as other nucleotides, consistent on a per-position basis
+* Frequency of each unique haplotype sequence was obtained
+  * 37 distinct sequences were identified
 * Haplotype sequences in FASTA file are duplicated according to frequency across accessions
   * <10 accessions: 1 copy in FASTA file
   * 10-99 accessions: 2 copies in FASTA file
